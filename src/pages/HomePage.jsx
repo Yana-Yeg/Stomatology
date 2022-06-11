@@ -1,7 +1,5 @@
+import Home from "../components/Home/Home";
+
 export default function HomePage() {
-  return (
-    <div style={{ textAlign: "center" }}>
-      <h1>Hello</h1>
-    </div>
-  );
+  return <Home />;
 }
