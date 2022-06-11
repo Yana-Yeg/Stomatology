@@ -1,14 +1,52 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 170px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.text_logo {
+    font-size: 35px;
+    display: contents;
+}
+
+.tooth {
+    background-color: orange;
+    width: 112px;
+    height: 112px;
+}
+/* ============================= */
 .field {
     margin-top: 50px;
-    height: 700px;
+    height: 900px;
     width: 100%; 
     display: inline-block;
-    /* background-color: orange; */
-    background-image: url(../../images/1.jpeg);
     background-size: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: linear-gradient(to right,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)),
+        url("../../images/1.jpeg");
 }
 .title {
     text-align: center;
+}
+.wrapper{
+    font-family: Poppins;
+    height: auto;
+    color: rgb(85, 85, 85);
+    width: 600px;
+    font-size: 25px;
+    margin: 40px 0 0 180px;
+    text-transform: uppercase;
+}   
+.text{
+
+}
+.logo{
+
 }
