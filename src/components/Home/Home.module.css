@@ -1,0 +1,14 @@
+.field {
+    margin-top: 50px;
+    height: 700px;
+    width: 100%; 
+    display: inline-block;
+    /* background-color: orange; */
+    background-image: url(../../images/1.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    text-align: center;
+}
