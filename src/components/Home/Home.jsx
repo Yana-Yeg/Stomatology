@@ -1,5 +1,6 @@
 import style from "./Home.module.css";
 import tooth from "../../images/icon-tooth.png";
+import Icons from "../../images/sprite.svg";
 
 const Home = () => {
   return (
@@ -16,6 +17,12 @@ const Home = () => {
           elderly. An experienced dental team is waiting for you at <br />
           al. Architects 10B
         </p>
+        <a href="tel:+48607706890" className={style.phone_btn}>
+          <svg className={style.icon}>
+            <use xlinkHref={`${Icons}#icon-smartphone`} />
+          </svg>
+          +48 607 706 890
+        </a>
       </div>
     </div>
   );
