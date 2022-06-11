@@ -19,16 +19,7 @@ header, footer {
 .header_tooth {
     background-color: orange;    
 }
-/* .field {
-    height: 60px;
-    width: 100%;
-    display: inline-block;
-    background-color: orange;
-    background-image: url(../../../images/icon-tooth.png) !important;
-    background-size: auto;
-    background-repeat: repeat;
-    background-size: cover;
-} */
+/* ======================= */
 .tooth {
     background-color: orange;
 }
