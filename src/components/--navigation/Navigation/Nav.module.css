@@ -34,6 +34,7 @@ header, footer {
 }
 .link_wrapper{
     width: 100%;
+    margin-left: -185px
 }
 .link {
     display: inline-block;
