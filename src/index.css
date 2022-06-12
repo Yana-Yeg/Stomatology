@@ -113,3 +113,7 @@ code {
   color: black;
   font-size: 14px;
 }
+.aboutpage_wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}
