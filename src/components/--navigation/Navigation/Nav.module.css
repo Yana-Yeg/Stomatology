@@ -1,3 +1,7 @@
+main{
+    min-height: 90vh;
+}
+
 header, footer {
     padding: 10px;
     text-align: center;
@@ -39,9 +43,6 @@ header, footer {
     color: blueviolet;
     background-image: repeating-linear-gradient(to top, blueviolet 0px 0px, transparent 5px 50px);
 }
-main{
-    min-height: 100vh;
-}
 
 .container_footer {
     /* max-width: 900px; */
@@ -56,22 +57,4 @@ main{
     left: 17%;
     width: 32px;
     height: 32px;
-}
-.line {
-    /* @media screen and (min-width: 480px) { */
-        display: inline-block;
-        height: 33px;
-        border: 1px solid #e0e5eb;
-        margin-left: 15px;
-        position: absolute;
-        right: 210px;
-    /* }
-
-    @media screen and (min-width: 768px) {
-        right: 165px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        margin-left: 100px;
-    } */
 }
