@@ -1,3 +1,40 @@
+.field {
+    display: flex !important;
+    margin-top: 10px;
+    height: 900px;
+    width: 100%; 
+    display: inline-block;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)),
+        url("../../images/1.jpeg");
+}
+aside{
+    width: 70px;
+}
+.line{
+    display: inline-block;
+    height: 80%;
+    border: 1px solid black;
+    position: absolute;
+    left: 110px;
+}
+/* .list{
+    list-style: none;
+    cursor: pointer;
+} */
+.list_item{
+    transform: rotate(270deg);
+    transform-origin: top left;
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 17px;
+}
+
+/* ============================= */
 .flex {
     display: flex;
     align-items: center;
@@ -5,7 +42,7 @@
     width: 300px;
     margin-left: 170px;
     margin-left: 170px;
-    margin-top: 50px;
+    margin-top: 250px;
 }
 
 .text_logo {
@@ -18,41 +55,30 @@
     width: 112px;
     height: 112px;
 }
+
 /* ============================= */
-.field {
-    margin-top: 50px;
-    height: 900px;
-    width: 100%; 
-    display: inline-block;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to right,
-        rgba(255, 255, 255, 0.9),
-        rgba(255, 255, 255, 0.9)),
-        url("../../images/1.jpeg");
-}
-.title {
-    text-align: center;
-}
 .wrapper{
     font-family: Poppins;
     height: auto;
     color: rgb(85, 85, 85);
-    width: 600px;
-    font-size: 25px;
+    width: 650px;
+    font-size: 30px;
     margin: 40px 0 0 180px;
     text-transform: uppercase;
 }   
 .text{
-
+    margin-bottom: 30px;
 }
 .logo{
-
+    color: orange;
+    font-weight: 600;
+    font-style: italic;
+    /* font-family: "Titillium Web"; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .phone_btn{
-    width: 300px;
-    height: 60px;
+    width: 350px;
+    height: 75px;
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -62,7 +88,27 @@
     font-weight: 600;
 }
 .phone_btn::after{
-    
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 350px;
+    height: 2px;
+    left: 279px;
+    top: 787px;
+    background-color: rgb(0 0 0 / 90%);
+    opacity: 1;
+
+}
+.phone_btn::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 80px;
+    left: 611px;
+    top: 726px;
+    background-color: rgb(0 0 0 / 90%);
+    opacity: 1;
 }
 .icon{
     width: 28px;

@@ -5,24 +5,54 @@ import Icons from "../../images/sprite.svg";
 const Home = () => {
   return (
     <div className={style.field}>
+      <aside>
+        <span className={style.line}></span>
+        <ul className={style.list}>
+          <li className={style.list_item}>
+            <a
+              href="https://www.instagram.com/natadent_stomatologia/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              instagram
+            </a>
+          </li>
+          <li className={style.list_item}>
+            <a
+              href="https://www.facebook.com/groups/215773488773090"
+              target="_blank"
+              rel="noreferrer"
+            >
+              facebook
+            </a>
+          </li>
+          <li className={style.list_item}>
+            <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+              google
+            </a>
+          </li>
+        </ul>
+      </aside>
       {/* <h1 className={style.title}>Home</h1> */}
-      <div className={style.flex}>
-        <img src={tooth} alt="" className={style.tooth} />
-        <p className={style.text_logo}>Your dantist</p>
-      </div>
-      <div className={style.wrapper}>
-        <p className={style.text}>
-          <span className={style.logo}>Your dantist</span> is a modern dental
-          office in the city center. We invite children, adults as well as the
-          elderly. An experienced dental team is waiting for you at <br />
-          al. Architects 10B
-        </p>
-        <a href="tel:+48607706890" className={style.phone_btn}>
-          <svg className={style.icon}>
-            <use xlinkHref={`${Icons}#icon-smartphone`} />
-          </svg>
-          +48 607 706 890
-        </a>
+      <div>
+        <div className={style.flex}>
+          <img src={tooth} alt="" className={style.tooth} />
+          <p className={style.text_logo}>Your dantist</p>
+        </div>
+        <div className={style.wrapper}>
+          <p className={style.text}>
+            <span className={style.logo}>Your dantist</span> is a modern dental
+            office in the city center. We invite children, adults as well as the
+            elderly. An experienced dental team is waiting for you at al.
+            Architects 10B
+          </p>
+          <a href="tel:+48607706890" className={style.phone_btn}>
+            <svg className={style.icon}>
+              <use xlinkHref={`${Icons}#icon-smartphone`} />
+            </svg>
+            +48 607 706 890
+          </a>
+        </div>
       </div>
     </div>
   );
