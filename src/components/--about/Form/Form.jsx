@@ -48,7 +48,9 @@ const Form = () => {
   return (
     <>
       <form className={s.form} onSubmit={handleSubmit} autoComplete="off">
-        <h1>Feedback form</h1>
+        <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
+          Feedback form
+        </h1>
         <p className={s.text}>Fields marked with * are required</p>
         <label className={s.label} htmlFor={nameInputId.current}>
           Name *
