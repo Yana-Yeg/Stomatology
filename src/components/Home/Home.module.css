@@ -1,9 +1,7 @@
 .field {
-    display: flex !important;
-    margin-top: 10px;
+    /* display: flex !important; */
     height: 1100px;
-    width: 100%; 
-    /* margin: 0 auto; */
+    width: 150%; 
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
@@ -11,6 +9,7 @@
         rgba(255, 255, 255, 0.9),
         rgba(255, 255, 255, 0.9)),
         url("../../images/1.jpeg");
+        /* width: 100%; */
 }
 
 aside{
@@ -62,10 +61,16 @@ aside{
 }
 
 /* ============================= */
+.wrap{
+    display: flex;
+            /* height: 100px; */
+            /* width: 100%; */
+
+}
 .wrapper{
     font-family: Poppins;
     height: auto;
-    width: 650px;
+    width: 690px;
     font-size: 30px;
     margin: 40px 0 0 10px;
     text-transform: uppercase;
@@ -73,6 +78,7 @@ aside{
 }   
 .text{
     margin-bottom: 30px;
+    padding-left: 40px;
 }
 .logo{
     color: orange;
