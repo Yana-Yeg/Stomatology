@@ -2,13 +2,12 @@
 .link {
     display: inline-block;
     text-decoration: none;
-    padding: 12px 24px;
-    font-size: 25px;
+    padding: 15px 24px;
+    font-size: 20px;
     font-weight: 500;
     color: lightslategrey;
-   
 }
 .link:hover {
-    color: blueviolet;
-    background-image: repeating-linear-gradient(to top, blueviolet 0px 0px, transparent 5px 50px);
+    color: orange;
+    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
 }
