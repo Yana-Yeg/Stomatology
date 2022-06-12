@@ -3,7 +3,7 @@ main{
 }
 
 header, footer {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -12,13 +12,16 @@ header, footer {
     display: flex;
 }
 .text_logo{
-    font-size: 25px;
-    display: contents;
+    font-size: 22px;
+    display: flex;
+    margin-left: 10px;
 }
 .link_logo {
     display: flex;
     text-decoration: none;
     color: orange;
+    width: 52px;
+    height: 52px;
 }
 .header_tooth {
     background-color: orange;    
@@ -29,23 +32,22 @@ header, footer {
 }
 .link_wrapper{
     width: 100%;
-    margin-left: -185px
+    margin-left: -100px
 }
 .link {
     display: inline-block;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 0px 24px;
     font-size: 25px;
     font-weight: 500;
     color: lightslategrey;
 }
-.link:hover {
+/* .link:hover {
     color: blueviolet;
-    background-image: repeating-linear-gradient(to top, blueviolet 0px 0px, transparent 5px 50px);
-}
+    background-image: repeating-linear-gradient(to top, blueviolet , transparent 5px 50px);
+} */
 
 .container_footer {
-    /* max-width: 900px; */
     padding: 10px;
     margin: 0 auto;
     text-align: center;
@@ -57,4 +59,8 @@ header, footer {
     left: 17%;
     width: 32px;
     height: 32px;
+}
+/* ======================= */
+.footer_wrapper{
+    padding: 10px;
 }
