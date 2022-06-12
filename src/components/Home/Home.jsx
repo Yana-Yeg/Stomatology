@@ -34,7 +34,7 @@ const Home = () => {
         </ul>
       </aside>
       {/* <h1 className={style.title}>Home</h1> */}
-      <div>
+      <div className="container">
         <div className={style.flex}>
           <img src={tooth} alt="" className={style.tooth} />
           <p className={style.text_logo}>Your dantist</p>
@@ -52,6 +52,8 @@ const Home = () => {
             </svg>
             +48 607 706 890
           </a>
+          <span className={style.line1}></span>
+          <span className={style.line2}></span>
         </div>
       </div>
     </div>
