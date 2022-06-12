@@ -81,7 +81,12 @@ const Form = () => {
 
         <label className={s.label} htmlFor={messageInputId.current}>
           Message...
-          <input className={s.textarea} name="message" value={message}></input>
+          <input
+            className={s.textarea}
+            name="message"
+            value={message}
+            onChange={handleChange}
+          ></input>
         </label>
         <button className={s.formBtn} type="submit" disabled={!email && !name}>
           Send
