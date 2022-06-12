@@ -4,10 +4,10 @@ import Icons from "../../../images/sprite.svg";
 const Contacts = () => {
   return (
     <div className={style.wrapper}>
-      <h1>Contacts</h1>
+      <h1 className={style.title}>contacts</h1>
       <p className={style.text}>
-        We work from Monday to Friday from 08:00 to 19:00. Saturday after
-        pre-registration.
+        We work from Monday to Friday from 08:00 to 19:00. <br />
+        Saturday after pre-registration.
       </p>
       <ul className={style.list}>
         <li className={style.item}>
@@ -21,7 +21,8 @@ const Contacts = () => {
             className={style.map}
             rel="noreferrer"
           >
-            al. Architects 10B 54-115 Wroclaw
+            al. Architects 10B <br />
+            54-115 Wroclaw
           </a>
         </li>
         <li className={style.item}>
@@ -39,7 +40,7 @@ const Contacts = () => {
           </svg>
           <h3>Tel</h3>
           <a href="tel:+48607706890" className={style.phone}>
-            607 706 890
+            +48 607 706 890
           </a>
         </li>
       </ul>
