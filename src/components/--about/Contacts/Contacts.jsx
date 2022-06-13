@@ -1,4 +1,4 @@
-import style from "./Contacts.module.css";
+import style from "./Contacts.module.scss";
 import Icons from "../../../images/sprite.svg";
 
 const Contacts = () => {

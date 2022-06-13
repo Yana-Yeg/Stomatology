@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import CustomeLink from "../CustomeLink/CustomeLink";
-import style from "./Nav.module.css";
+import style from "./Nav.module.scss";
 import tooth from "../../../images/icon-tooth.png";
 // import Icons from "../../../images/sprite.svg";
 

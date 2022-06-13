@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "./PostFilter.module.css";
+import style from "./PostFilter.module.scss";
 
 const PostFilter = ({ postQuery, latest, setSerchParams }) => {
   const [search, setSearch] = useState(postQuery);

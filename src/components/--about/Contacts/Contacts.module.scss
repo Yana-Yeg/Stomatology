@@ -1,12 +1,20 @@
 .wrapper {
     background-color: orange;
-    max-width: 450px;
     display: inline-block;
-    padding: 50px 30px;
-    margin-top: 50px;
-    color: white;   
+    color: white;
     line-height: 1.6;
     font-size: 20px;
+    max-width: 400px;
+        @media screen and (min-width: 768px) {
+            display: flex;
+            max-width: 300px;
+        }
+
+         @media screen and (min-width: 1279px) {
+            max-width: 450px;
+            padding: 50px 30px;
+            margin-top: 50px;
+         }
 }
 
 .list {

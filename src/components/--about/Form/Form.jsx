@@ -1,7 +1,7 @@
 import { nanoid } from "@reduxjs/toolkit";
 import { useRef, useState } from "react";
 import { useDispatch } from "react-redux";
-import s from "./Form.module.css";
+import s from "./Form.module.scss";
 
 const Form = () => {
   const [name, setName] = useState("");

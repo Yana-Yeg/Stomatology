@@ -1,4 +1,4 @@
-import style from "./Home.module.css";
+import style from "./Home.module.scss";
 import tooth from "../../images/icon-tooth.png";
 import Icons from "../../images/sprite.svg";
 

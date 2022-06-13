@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import style from "./CustomeLink.module.css";
+import style from "./CustomeLink.module.scss";
 
 const CustomeLink = ({ children, to }) => {
   return (
