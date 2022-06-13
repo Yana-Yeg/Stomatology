@@ -31,7 +31,7 @@ const Contacts = () => {
           </svg>
           <h3>Email</h3>
           <a href="mailto:info@example.com" className={style.email}>
-            kontakt@architekciusmiechu.pl
+            kontakt@architekci.pl
           </a>
         </li>
         <li className={style.item}>
