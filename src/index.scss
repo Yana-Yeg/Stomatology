@@ -53,11 +53,24 @@ code {
 }
 
 .container {
-  width: 1200px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  text-align: center;
+    @media screen and (min-width: 480px) {
+        min-width: 480px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    @media screen and (min-width: 1280px) {
+      width: 1200px;
+    }
   /* outline: 2px solid blue; */
 }
 .postsPage_ul {
@@ -114,6 +127,10 @@ code {
   font-size: 14px;
 }
 .aboutpage_wrapper{
-  display: flex;
+
   justify-content: space-evenly;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+      }
 }
