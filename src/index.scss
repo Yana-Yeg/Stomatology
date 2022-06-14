@@ -57,11 +57,13 @@ code {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  // outline: 2px solid blue;
+
     @media screen and (min-width: 480px) {
-        min-width: 480px;
-        padding-left: 25px;
-        padding-right: 25px;
-      }
+      min-width: 480px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
     @media screen and (min-width: 768px) {
       width: 768px;
       padding-left: 15px;
@@ -71,7 +73,7 @@ code {
     @media screen and (min-width: 1280px) {
       width: 1200px;
     }
-  /* outline: 2px solid blue; */
+  
 }
 .postsPage_ul {
   margin: 0px auto;
