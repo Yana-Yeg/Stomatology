@@ -16,13 +16,14 @@
 
     @media screen and (min-width: 768px) {
         max-width: 300px;
-        padding: 30px 15px 35px;
+        padding: 150px 15px 150px;
         margin-top: 0;
+        height: 90vh;
     }
 
     @media screen and (min-width: 1280px) {
         max-width: 450px;
-        padding: 50px 30px;
+        padding: 150px 30px;
     }
 }
 
