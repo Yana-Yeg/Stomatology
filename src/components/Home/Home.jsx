@@ -39,7 +39,6 @@ const Home = () => {
               </li>
             </ul>
           </aside>
-          {/* <div className="container"> */}
           <div className={style.content}>
             <div className={style.flex}>
               <img src={tooth} alt="" className={style.tooth} />
