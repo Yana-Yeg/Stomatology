@@ -90,9 +90,6 @@
 }
 
 /* ============================= */
-.content{
-
-}
 .flex {
     display: flex;
     padding-top: 70px;
@@ -106,7 +103,6 @@
     }
     @media screen and (min-width: 1280px) {
         margin-left: 600px;
-        // margin-top: 120px;
         padding-top: 0;
     }
 }
@@ -156,8 +152,9 @@
         padding-left: 0px;
     }
     @media screen and (min-width: 1280px) {
-        padding-left: 100px;
+        padding-left: 120px;
         margin-bottom: 40px;
+        font-size: 25px;
     }
 }
 .logo{
