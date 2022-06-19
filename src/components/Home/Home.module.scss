@@ -92,11 +92,11 @@
     color: rgba(11, 11, 11, 0.5);
     text-transform: uppercase;
     &:hover,
-        &:focus {
-            color: orange;
-            font-size: 18px;
-            font-weight: 900;
-        }
+    &:focus {
+        color: orange;
+        font-size: 19px;
+        font-weight: 900;
+    }
 }
 
 /* ============================= */
@@ -189,7 +189,11 @@
     &:focus{
         background-color: black;
         color: orange;
-    }
+
+        & .icon{
+            fill: orange;
+        }
+        }
     @media screen and (min-width: 480px) {
         width: 180px;
         height: 45px;
@@ -206,6 +210,9 @@
         margin-left: 180px;
     }
 }
+// .phone_btn:hover .icon {
+//     fill: orange;
+// }
 /* .phone_btn::after{
     position: absolute;
     display: inline-block;
