@@ -1,6 +1,4 @@
 .field {
-    // height: 1100px;
-    // width: 150%;
     background-size: auto;
     background-repeat: no-repeat;
     background-size: contain;
@@ -10,18 +8,12 @@
         url("../../images/1.jpeg");
 
     @media screen and (min-width: 768px) {
-        // height: 1100px;
         width: 110%;
-    }
-    @media screen and (min-width: 1280px) {
-        // height: 1100px;
-        // width: 150%;
     }
 }
 .wrap {
     margin-bottom: 30px;
-    /* height: 100px; */
-    /* width: 100%; */
+
     @media screen and (min-width: 768px) {
         display: flex;
     }
@@ -32,9 +24,6 @@
         width: 50px;
         display: flex;
         position: relative;
-    }
-    @media screen and (min-width: 1280px) {
-        // width: 120px;
     }
 }
 .line{
@@ -49,7 +38,6 @@
     }
     @media screen and (min-width: 1280px) {
         display: inline-block;
-        // height: 85%;
         margin-top: 40px;
         border: 1px solid rgba(11, 11, 11, 0.3);
         position: absolute;
@@ -57,10 +45,7 @@
         height: 80vh;
     }
 }
-/* .list{
-    list-style: none;
-    cursor: pointer;
-} */
+
 .list {
     display: flex;
     justify-content: space-around;
@@ -72,30 +57,21 @@
     }
 }
 .list_item{
-    // &:hover, &:focus{
-    //     color: orange;
-    //     font-size: 25px;
-    //     font-weight: 900;
-    // }
     @media screen and (min-width: 768px) {
         transform: rotate(270deg);
         transform-origin: top left;
         margin-top: 150px;
         font-size: 20px;
     }
-    @media screen and (min-width: 1280px) {
-        // margin-left: 40px;
-    }
-
 }
+
 .list_item a{
     color: rgba(11, 11, 11, 0.5);
     text-transform: uppercase;
+
     &:hover,
     &:focus {
         color: orange;
-        font-size: 19px;
-        font-weight: 900;
     }
 }
 
@@ -167,6 +143,7 @@
         font-size: 25px;
     }
 }
+
 .logo{
     color: orange;
     font-weight: 600;
@@ -174,6 +151,7 @@
     /* font-family: "Titillium Web"; */
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
+
 .phone_btn{
     width: 160px;
     height: 35px;
@@ -300,21 +278,3 @@
         left: 205px;
     }
 }
-
-
-        // @media screen and (min-width: 480px) {
-        //     max-width: 400px;
-        //     padding-left: 25px;
-        //     padding-right: 25px;
-        // }
-    
-        // @media screen and (min-width: 768px) {
-        //     max-width: 300px;
-        //     padding: 30px 15px 35px;
-        //     margin-top: 0;
-        // }
-    
-        // @media screen and (min-width: 1280px) {
-        //     max-width: 450px;
-        //     padding: 50px 30px;
-        // }
