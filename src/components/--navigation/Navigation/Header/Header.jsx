@@ -11,6 +11,11 @@ const Header = () => {
   const toggleModal = () => {
     setIsOpenModal((prev) => !prev);
   };
+  const [value, setValue] = useState("");
+
+  function chengeSelect(e) {
+    setValue(e.target.value);
+  }
 
   return (
     <header>
@@ -25,7 +30,24 @@ const Header = () => {
 
           <div className={style.link_wrapper}>
             <CustomeLink to="/">Home</CustomeLink>
-            <CustomeLink to="/posts">Posts</CustomeLink>
+            {/* <CustomeLink to="/posts"> */}
+            {/* Posts */}
+            <select value={value} onChange={chengeSelect}>
+              <option>Posts</option>
+              <option>
+                <CustomeLink to="/new1">New1</CustomeLink>
+              </option>
+              <option>
+                <CustomeLink to="/new2">New2</CustomeLink>
+              </option>
+              <option>
+                <CustomeLink to="/new3">New3</CustomeLink>
+              </option>
+              <option>
+                <CustomeLink to="/new4">New4</CustomeLink>
+              </option>
+            </select>
+            {/* </CustomeLink> */}
             <CustomeLink to="/about">About</CustomeLink>
           </div>
           {/* className={style.Section1 + " " + style.Section2} */}

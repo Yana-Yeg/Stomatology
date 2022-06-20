@@ -12,9 +12,12 @@ function App() {
     <Routes>
       <Route path="/" element={<Nav />}>
         <Route index element={<HomePage />} />
-        <Route path="posts" element={<PostsPage />} />
-        <Route path="posts/:id" element={<SinglePostsPage />} />
-        <Route path="posts/:id/edit" element={<EditPost />} />
+        <Route>
+          <Route path="/new1" element={<PostsPage />} />
+          <Route path="/new2" element={<SinglePostsPage />} />
+          <Route path="/new3" element={<EditPost />} />
+          <Route path="/new4" element={<EditPost />} />
+        </Route>
         <Route path="about" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
