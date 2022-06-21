@@ -1,15 +1,7 @@
-import Contacts from "../components/--about/Contacts/Contacts";
-import Form from "../components/--about/Form/Form";
+import About from "../components/--about/About/About";
 
 const AboutPage = () => {
-  return (
-    <div className="container">
-      <div className="aboutpage_wrapper">
-        <Form />
-        <Contacts />
-      </div>
-    </div>
-  );
+  return <About />;
 };
 
 export default AboutPage;
