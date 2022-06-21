@@ -1,4 +1,3 @@
-import AboutImg from "../../../images/about.jpeg";
 import style from "./About.module.scss";
 
 const About = () => {
