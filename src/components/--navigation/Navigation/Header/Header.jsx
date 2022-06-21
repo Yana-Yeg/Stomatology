@@ -30,9 +30,11 @@ const Header = () => {
 
           <div className={style.link_wrapper}>
             <CustomeLink to="/">Home</CustomeLink>
+            <CustomeLink to="/about">About</CustomeLink>
+            <CustomeLink to="/offers">Offers</CustomeLink>
             {/* <CustomeLink to="/posts"> */}
             {/* Posts */}
-            <select value={value} onChange={chengeSelect}>
+            {/* <select value={value} onChange={chengeSelect}>
               <option>Posts</option>
               <option>
                 <CustomeLink to="/new1">New1</CustomeLink>
@@ -46,9 +48,9 @@ const Header = () => {
               <option>
                 <CustomeLink to="/new4">New4</CustomeLink>
               </option>
-            </select>
+            </select> */}
             {/* </CustomeLink> */}
-            <CustomeLink to="/about">About</CustomeLink>
+            <CustomeLink to="/contacts">Contacts</CustomeLink>
           </div>
           {/* className={style.Section1 + " " + style.Section2} */}
 
