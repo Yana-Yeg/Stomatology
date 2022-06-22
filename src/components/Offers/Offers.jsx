@@ -16,13 +16,7 @@ const Offers = () => {
       <div className={style.general_wrapper}>
         <div className={style.part_list}>
           <div className={style.item}>
-            <img
-              src={general}
-              className={style.img}
-              width={60}
-              height={60}
-              alt=""
-            />
+            <img src={general} className={style.img} alt="General dentistry" />
             <div>
               <h2>General dentistry</h2>
               <p className={style.text}>
@@ -32,7 +26,7 @@ const Offers = () => {
             </div>
           </div>
           <div className={style.item}>
-            <img src={kids} className={style.img} alt="" />
+            <img src={kids} className={style.img} alt="Children's dentistry" />
             <div>
               <h2>Children's dentistry</h2>
               <p className={style.text}>
@@ -43,13 +37,7 @@ const Offers = () => {
             </div>
           </div>
           <div className={style.item}>
-            <img
-              src={orto}
-              className={style.img}
-              width={60}
-              height={60}
-              alt=""
-            />
+            <img src={orto} className={style.img} alt="Orthodontics" />
             <div>
               <h2>Orthodontics</h2>
               <p className={style.text}>
@@ -59,13 +47,7 @@ const Offers = () => {
             </div>
           </div>
           <div className={style.item}>
-            <img
-              src={rent}
-              className={style.img}
-              width={60}
-              height={60}
-              alt=""
-            />
+            <img src={rent} className={style.img} alt="x-ray" />
             <div>
               <h2>x-ray</h2>
               <p className={style.text}>
@@ -77,13 +59,7 @@ const Offers = () => {
         </div>
         <div className={style.part_list}>
           <div className={style.item}>
-            <img
-              src={prot}
-              className={style.img}
-              width={60}
-              height={60}
-              alt=""
-            />
+            <img src={prot} className={style.img} alt="Prosthetics" />
             <div>
               <h2>Prosthetics</h2>
               <p className={style.text}>
@@ -95,13 +71,7 @@ const Offers = () => {
             </div>
           </div>
           <div className={style.item}>
-            <img
-              src={root}
-              className={style.img}
-              width={60}
-              height={60}
-              alt=""
-            />
+            <img src={root} className={style.img} alt="Endodontics" />
             <div>
               <h2>Endodontics / Root Canal Treatment</h2>
               <p className={style.text}>
@@ -113,13 +83,7 @@ const Offers = () => {
             </div>
           </div>
           <div className={style.item}>
-            <img
-              src={impl}
-              className={style.img}
-              width={60}
-              height={60}
-              alt=""
-            />
+            <img src={impl} className={style.img} alt="Implantology" />
             <div>
               <h2>Surgery / Implantology</h2>
               <p className={style.text}>
