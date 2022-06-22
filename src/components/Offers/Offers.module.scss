@@ -1,10 +1,36 @@
+// .list{
+
+//     @media screen and (min-width: 768px) {
+//         display: flex;
+//         flex-wrap: wrap;
+
+//     }
+// }
+
+.general_wrapper {
+    display: block;
+    margin-top: 10px;
+    @media screen and (min-width: 768px){
+        display: flex;
+        margin-top: 20px;
+    }
+}
+.title{
+    margin-top: 10px;
+}
+
 .item {
-    width: 320px;
+    // width: 320px;
     // margin: 20px;
     padding: 20px;
     display: flex;
     text-align: left;
-    outline: 1px solid red;
+    // outline: 1px solid red;
+
+    @media screen and (min-width: 768px) {
+        width: 350px;
+
+    }
 }
 .img {
     width: 60px;
@@ -12,6 +38,7 @@
     margin: 10px 30px 0 0 ;
     background-color: orange;
 }
+
 .text{
     margin-top: 10px;
 }
