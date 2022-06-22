@@ -1,11 +1,10 @@
-// .list{
-
-//     @media screen and (min-width: 768px) {
-//         display: flex;
-//         flex-wrap: wrap;
-
-//     }
-// }
+.line {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    border: 1px dotted orange;
+}
 
 .general_wrapper {
     display: block;
@@ -15,23 +14,35 @@
         margin-top: 20px;
     }
 }
+.part_list{
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
+}
+
 .title{
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
+    color: orange;
+
+
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
 }
 
 .item {
-    // width: 320px;
-    // margin: 20px;
     padding: 20px;
     display: flex;
     text-align: left;
-    // outline: 1px solid red;
 
     @media screen and (min-width: 768px) {
-        width: 350px;
-
+        min-width: 350px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding: 30px 20px;
     }
 }
+
 .img {
     width: 60px;
     height: 60px;
@@ -41,4 +52,8 @@
 
 .text{
     margin-top: 10px;
+
+    @media screen and (min-width: 1280px) {
+        line-height: 1.7;
+    }
 }
