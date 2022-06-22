@@ -8,6 +8,7 @@ import EditPost from "./pages/EditPost";
 import ContactsPage from "./pages/ContactsPage";
 import AboutPage from "./pages/AboutPage";
 import OffersPage from "./pages/OffersPage";
+import PricesPage from "./pages/PricesPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="offers" element={<OffersPage />} />
+        <Route path="prices" element={<PricesPage />} />
         {/* <Route>
           <Route path="/new1" element={<PostsPage />} />
           <Route path="/new2" element={<SinglePostsPage />} />

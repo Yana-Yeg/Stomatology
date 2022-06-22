@@ -32,6 +32,7 @@ const Header = () => {
             <CustomeLink to="/">Home</CustomeLink>
             <CustomeLink to="/about">About</CustomeLink>
             <CustomeLink to="/offers">Offers</CustomeLink>
+            <CustomeLink to="/prices">Prices</CustomeLink>
             {/* <CustomeLink to="/posts"> */}
             {/* Posts */}
             {/* <select value={value} onChange={chengeSelect}>
