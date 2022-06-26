@@ -5,21 +5,29 @@ import Prevention from "./offer item/Prevention";
 import style from "./Prices.module.scss";
 
 const Prices = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggleModal = () => {
-    setIsOpen((prev) => !prev);
-  };
+  // const toggleModal = () => {
+  //   setIsOpen((prev) => !prev);
+  // };
 
   return (
     <div className={style.wrap}>
       <div>
         <ul>
-          <li>
-            <button className={style.btn} onClick={() => toggleModal()}>
+          <li className={style.wrapper}>
+            {/* <button className={style.btn} onClick={() => toggleModal()}>
               General dentistry
-            </button>
-            {isOpen && <GeneralDentistry style={style} />}
+            </button> */}
+            <button className={style.button}> hfshb</button>
+
+            <p className={style.desctiption}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              ipsam ipsum recusandae asperiores tempora iusto minus et optio
+              eius, non dolores consequatur autem laborum quo eligendi! Cumque
+              velit eaque veritatis!
+            </p>
+            {/* {isOpen && <GeneralDentistry style={style} />} */}
           </li>
           {/* <li>
             <button className={style.btn} onClick={() => toggleModal()}>

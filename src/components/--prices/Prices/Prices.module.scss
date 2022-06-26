@@ -14,3 +14,25 @@
     text-decoration: dotted !important;
     margin-bottom: 10px;
 }
+
+.wrapper{
+        position: relative;
+            overflow: hidden;
+}
+.button{
+    width: 300px;height: 200px;
+}
+ .desctiption {
+     height: 100%;
+     position: absolute;
+
+     top: 0;
+     transform: translateY(100%);
+     transition: transform 500ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+     .button:hover &,
+     .button:focus & {
+         transform: translateY(0);
+     }
+ }
