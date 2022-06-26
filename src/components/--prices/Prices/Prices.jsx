@@ -10,16 +10,22 @@ const Prices = () => {
   // const toggleModal = () => {
   //   setIsOpen((prev) => !prev);
   // };
+  const open = (e) => {
+    console.log("e.target :>> ", e.target);
+    if (e.target.tagName === "BUTTON") {
+      e.target.classList.toggle("checked");
+    }
+  };
 
   return (
     <div className={style.wrap}>
       <div>
         <ul>
-          <li className={style.wrapper}>
+          <li className={style.wrapper} onClick={(e) => open(e)}>
             {/* <button className={style.btn} onClick={() => toggleModal()}>
               General dentistry
             </button> */}
-            <button className={style.button}> hfshb</button>
+            <button className={style.button}>hfshb</button>
 
             <p className={style.desctiption}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
