@@ -13,11 +13,19 @@ const ListItem = (props) => {
     <li className={style.parentListItem}>
       <p onClick={() => handlerClick()} className={style.title}>
         {props.title}
-        <span>
-          <svg className={style.iconClose}>
-            <use xlinkHref={`${Icons}#icon-arrow`} />
-          </svg>
-        </span>
+        {isOpen ? (
+          <span>
+            <svg className={style.iconClose}>
+              <use xlinkHref={`${Icons}#icon-shrink2`} />
+            </svg>
+          </span>
+        ) : (
+          <span>
+            <svg className={`${style.iconClose} ${style.close}`}>
+              <use xlinkHref={`${Icons}#icon-enlarge2`} />
+            </svg>
+          </span>
+        )}
       </p>
       <div className={`${style.innerList} ${isOpen ? style.open : ""}`}>
         <ul className={style.itemList}>

@@ -155,7 +155,7 @@ const Prices = () => {
           </li> */}
         </ul>
       </div>
-      <img src={Big_tooth} alt="" />
+      <img src={Big_tooth} alt="" className={style.image} />
     </div>
   );
 };
