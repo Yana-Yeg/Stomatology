@@ -20,9 +20,9 @@ const ListItem = (props) => {
         </span>
       </p>
       <div className={`${style.innerList} ${isOpen ? style.open : ""}`}>
-        <ul>
+        <ul className={style.itemList}>
           {props.list.map((item) => (
-            <li key={item.length} style={{ display: "block" }}>
+            <li key={item.length} className={style.itemListItem}>
               <span>
                 <svg className={style.icon}>
                   <use xlinkHref={`${Icons}#icon-pushpin`} />
