@@ -93,7 +93,7 @@ const Prices = () => {
   return (
     <div className={style.wrap}>
       <div className="container">
-        <ul>
+        <ul className={style.parentList}>
           <ListItem
             title="General Dentistry"
             list={generalList}
