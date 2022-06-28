@@ -4,8 +4,12 @@ const Footer = () => {
   return (
     <footer className={style.container_footer}>
       <div className={style.footer_wrapper}>
-        {/* <img src={tooth} alt="" className={style.tooth} /> */}
-        <p>&copy; 2022 | My project | Developed by Yana Yegorina</p>
+        <div className="container">
+          {/* <img src={tooth} alt="" className={style.tooth} /> */}
+          <p className={style.text}>
+            &copy; 2022 | My project | Developed by Yana Yegorina
+          </p>
+        </div>
       </div>
     </footer>
   );

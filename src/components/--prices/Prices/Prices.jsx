@@ -91,8 +91,10 @@ const xrayList = [
 ];
 const Prices = () => {
   return (
-    <div className={style.wrap}>
-      <div className="container">
+    <div className="container">
+      <h1 className={style.title}>Our Prices</h1>
+      <span className={style.line}></span>
+      <div className={style.wrap}>
         <ul className={style.parentList}>
           <ListItem
             title="General Dentistry"
@@ -154,8 +156,8 @@ const Prices = () => {
             </ul>
           </li> */}
         </ul>
+        <img src={Big_tooth} alt="" className={style.image} />
       </div>
-      <img src={Big_tooth} alt="" className={style.image} />
     </div>
   );
 };

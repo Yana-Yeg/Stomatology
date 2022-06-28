@@ -11,7 +11,7 @@ const ListItem = (props) => {
 
   return (
     <li className={style.parentListItem}>
-      <p onClick={() => handlerClick()} className={style.title}>
+      <p onClick={() => handlerClick()} className={style.titleItem}>
         {props.title}
         {isOpen ? (
           <span>

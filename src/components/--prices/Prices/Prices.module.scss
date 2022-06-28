@@ -11,20 +11,44 @@
         height: 40%;
     }
 }
+.title {
+    margin: 10px 0 10px 0;
+    color: orange;
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+    }
+}
+.line {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 10px auto;
+    border: 1px dotted orange;
+}
 .parentList {
    width: 90%;
    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+        width: 60%; 
+    }
 }
 // ========================
 
 .parentListItem{
     margin: 10px 0;
     background-color: orange;
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+        margin: 25px 0;
+    }
 }
-.title{
+.titleItem{
     padding: 10px;
     text-align: left;
     position: relative;
+    @media screen and (min-width: 768px) {
+        padding: 15px;
+    }
 }
 .iconClose {
     position: absolute;
@@ -32,6 +56,11 @@
     width: 20px;
     height: 18px;
     fill: black;
+    @media screen and (min-width: 768px) {
+        right: 30px;
+        width: 25px;
+        height: 25px;
+    }
 }
 .close {
     fill: white;
@@ -43,6 +72,11 @@
     display: none;
     text-align: left;
     padding: 10px;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        
+    }
 }
 .itemList{
     padding: 0 0 10px 20px;
