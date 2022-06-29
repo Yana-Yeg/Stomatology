@@ -10,7 +10,11 @@ const ListItem = (props) => {
   };
 
   return (
-    <li className={style.parentListItem}>
+    <li
+      className={`${style.parentListItem} ${
+        isOpen ? style.parentListItemOpen : ""
+      }`}
+    >
       <p onClick={() => handlerClick()} className={style.titleItem}>
         {props.title}
         {isOpen ? (
@@ -40,7 +44,7 @@ const ListItem = (props) => {
             </li>
           ))}
         </ul>
-        <p>{props.message}</p>
+        <p className={style.itemDisc}>{props.message}</p>
       </div>
     </li>
   );

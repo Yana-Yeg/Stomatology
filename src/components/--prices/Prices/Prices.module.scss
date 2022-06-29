@@ -8,11 +8,14 @@
     @media screen and (min-width: 768px) {
         display: flex;
         width: 40%;
-        height: 40%;
+        height: 100%;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 50%;
     }
 }
 .title {
-    margin: 10px 0 10px 0;
+    margin: 5px 0;
     color: orange;
     @media screen and (min-width: 768px) {
         margin-top: 30px;
@@ -23,13 +26,22 @@
     text-align: center;
     width: 100px;
     margin: 10px auto;
-    border: 1px dotted orange;
+    border: 1px dashed orange;
+}
+.line2{
+    display: block;
+    width: 150px;
+    margin-left: 20px;
+    border: 1px dashed orange;
 }
 .parentList {
-   width: 90%;
+//    width: 95%;
    margin: 0 auto;
     @media screen and (min-width: 768px) {
         width: 60%; 
+    }
+    @media screen and (min-width: 1280px) {
+        width: 50%;
     }
 }
 // ========================
@@ -38,28 +50,42 @@
     margin: 10px 0;
     background-color: orange;
     @media screen and (min-width: 768px) {
-        font-size: 22px;
-        margin: 25px 0;
+        margin: 10px 0;
     }
+    @media screen and (min-width: 1280px) {
+        margin: 15px 0;
+    }
+}
+.parentListItemOpen{
+    background-color: grey;
+    color: white;
 }
 .titleItem{
+    position: relative;
     padding: 10px;
     text-align: left;
-    position: relative;
     @media screen and (min-width: 768px) {
+        padding: 10px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    @media screen and (min-width: 1280px) {
         padding: 15px;
+        padding-left: 30px;
+        font-size: 20px;
     }
 }
+
 .iconClose {
     position: absolute;
     right: 10px;
     width: 20px;
     height: 18px;
-    fill: black;
+    fill: orange;
     @media screen and (min-width: 768px) {
         right: 30px;
-        width: 25px;
-        height: 25px;
+        width: 22px;
+        height: 22px;
     }
 }
 .close {
@@ -69,13 +95,13 @@
     list-style: circle !important;
     text-decoration: dashed !important;
     background-color: white;
+    color: black;
     display: none;
     text-align: left;
     padding: 10px;
     font-size: 14px;
     @media screen and (min-width: 768px) {
         font-size: 20px;
-        
     }
 }
 .itemList{
@@ -83,17 +109,32 @@
 }
 .itemListItem{
     position: relative;
+    font-size: 12px;
+    line-height: 1.4;
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.6;
+    }
 }
 .icon {
     position: absolute;
     left: -17px;
-    top: 3px;
+    top: 7px;
     width: 10px;
     height: 10px;
     fill: orange;
 }
 .open{
     display: block;
+}
+.itemDisc{
+    font-size: 12px;
+    line-height: 1.4;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.6;
+    }
 }
 
 

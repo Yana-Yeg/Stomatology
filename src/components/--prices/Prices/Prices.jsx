@@ -104,35 +104,42 @@ const Prices = () => {
         first part of Article 66 of the Civil Code. The final cost is determined
         during a medical consultation and an individual treatment plan.`"
           />
+          <span className={style.line2}></span>
           <ListItem
             title="Prevention"
             list={preventionList}
             message="`These prices are indicative, not mandatory and are not an offer within the meaning of Art. 66 § 1 CC. The final cost is determined during a medical consultation and the creation of an individual treatment plan.`"
           />
+          <span className={style.line2}></span>
           <ListItem
             title="Endodontics / root canal treatment"
             list={rootList}
           />
+          <span className={style.line2}></span>
           <ListItem
             title="Orthodontics"
             list={ortoList}
             message="`These prices are indicative, optional and are not an offer within the meaning of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
           />
+          <span className={style.line2}></span>
           <ListItem
             title="Surgery / implantology"
             list={surgeryList}
             message="`These prices are indicative, optional and are not a proposal in the sense of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
           />
+          <span className={style.line2}></span>
           <ListItem
             title="Prosthetics"
             list={prostheticsList}
             message="`These prices are approximate, optional and do not constitute an offer within the meaning of Part 1 of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
           />
+          <span className={style.line2}></span>
           <ListItem
             title="Children's dentistry"
             list={childrenList}
             message="`These prices are indicative, optional and are not a proposal in the sense of part one of Article 66 of the Civil Code. The final cost is determined during a medical consultation and an individual treatment plan.`"
           />
+          <span className={style.line2}></span>
           <ListItem
             title="X-ray / panoramic images"
             list={xrayList}
