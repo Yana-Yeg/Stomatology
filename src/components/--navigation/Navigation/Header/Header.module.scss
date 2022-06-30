@@ -116,3 +116,32 @@ header {
         display: none;
     }
 }
+
+// for navigation
+.parentListItem {
+    display: inline-block;
+    &:hover {
+        & .innerList {
+            display: inline-block;
+        }
+    }
+}
+.text{
+     outline: 1px solid red;
+    padding: 15px 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: lightslategrey;
+}
+.text:hover {
+    color: orange;
+    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
+}
+.list{
+    display: grid;
+    position: absolute;
+}
+.innerList{
+    background-color: black;
+    display: none;
+}

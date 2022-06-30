@@ -33,25 +33,27 @@ const Header = () => {
             <CustomeLink to="/about">About</CustomeLink>
             <CustomeLink to="/offers">Offers</CustomeLink>
             <CustomeLink to="/prices">Prices</CustomeLink>
-            {/* <CustomeLink to="/posts"> */}
-            {/* Posts */}
-            {/* <select value={value} onChange={chengeSelect}>
-              <option>Posts</option>
-              <option>
-                <CustomeLink to="/new1">New1</CustomeLink>
-              </option>
-              <option>
-                <CustomeLink to="/new2">New2</CustomeLink>
-              </option>
-              <option>
-                <CustomeLink to="/new3">New3</CustomeLink>
-              </option>
-              <option>
-                <CustomeLink to="/new4">New4</CustomeLink>
-              </option>
-            </select> */}
-            {/* </CustomeLink> */}
             <CustomeLink to="/contacts">Contacts</CustomeLink>
+            <a className={style.parentListItem}>
+              <p className={style.text}>new</p>
+              <ul className={style.list}>
+                <li className={style.innerList}>
+                  <CustomeLink to="/">Home</CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/about">About</CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/offers">Offers</CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/prices">Prices</CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/contacts">Contacts</CustomeLink>
+                </li>
+              </ul>
+            </a>
           </div>
           {/* className={style.Section1 + " " + style.Section2} */}
 
