@@ -32,28 +32,45 @@ const Header = () => {
             <CustomeLink to="/">Home</CustomeLink>
             <CustomeLink to="/about">About</CustomeLink>
             <CustomeLink to="/offers">Offers</CustomeLink>
-            <CustomeLink to="/prices">Prices</CustomeLink>
-            <CustomeLink to="/contacts">Contacts</CustomeLink>
+            {/* <CustomeLink to="/prices">Prices</CustomeLink> */}
             <a className={style.parentListItem}>
-              <p className={style.text}>new</p>
+              <p className={style.text}>Prices</p>
               <ul className={style.list}>
                 <li className={style.innerList}>
-                  <CustomeLink to="/">Home</CustomeLink>
+                  <CustomeLink to="/prices/general">General</CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/about">About</CustomeLink>
+                  <CustomeLink to="/prices/prevention">Prevention</CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/offers">Offers</CustomeLink>
+                  <CustomeLink to="/prices/endodontics">
+                    Endodontics
+                  </CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/prices">Prices</CustomeLink>
+                  <CustomeLink to="/prices/orthodontics">
+                    Orthodontics
+                  </CustomeLink>
                 </li>
                 <li className={style.innerList}>
-                  <CustomeLink to="/contacts">Contacts</CustomeLink>
+                  <CustomeLink to="/prices/surgery">Surgery</CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/prices/prosthetics">
+                    Prosthetics
+                  </CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/prices/children">
+                    Kid's dentistry
+                  </CustomeLink>
+                </li>
+                <li className={style.innerList}>
+                  <CustomeLink to="/prices/xray">X-ray</CustomeLink>
                 </li>
               </ul>
             </a>
+            <CustomeLink to="/contacts">Contacts</CustomeLink>
           </div>
           {/* className={style.Section1 + " " + style.Section2} */}
 

@@ -129,10 +129,80 @@ code {
   font-size: 14px;
 }
 .aboutpage_wrapper{
-
   justify-content: space-evenly;
 
     @media screen and (min-width: 768px) {
         display: flex;
       }
+}
+.prices_title {
+  padding: 10px 0 5px 0;
+  font-size: 18px;
+  color: orange;
+  // text-align: center;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 15px;
+    padding-left: 30px;
+  }
+}
+.prices_line {
+  display: block;
+  text-align: center;
+  width: 70px;
+  margin: 0px auto 10px;
+  border: 1px dotted orange;
+  @media screen and (min-width: 768px) {
+    width: 100px;
+    margin-bottom: 40px;
+  }
+}
+.prices_list {
+  text-align: left;
+  padding: 0 0 10px 20px;
+  width: 90%;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+      width: 450px;
+  }
+}
+.prices_listItem {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.4;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+.prices_icon {
+  position: absolute;
+  left: -17px;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+  fill: orange;
+  @media screen and (min-width: 768px) {
+    top: 7px;
+  }
+}
+.prices_disc {
+  width: 90%;
+  margin: 0 auto 10px;
+  font-size: 14px;
+  line-height: 1.4;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
 }
