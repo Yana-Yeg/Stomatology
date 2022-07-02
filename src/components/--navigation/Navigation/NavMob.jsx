@@ -25,37 +25,37 @@ const NavMob = ({ isOpenModal, handleClose }) => {
           {/* <li>
             <CustomeLink to="/prices">Prices</CustomeLink>
           </li> */}
-          <a className={style.parentListItem}>
-            <p className={style.text}>Prices</p>
-            <ul className={style.list}>
-              <li className={style.innerList}>
+          <li>
+            Prices
+            <ul className={style.link_menu}>
+              <li>
                 <CustomeLink to="/prices/general">General</CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/prevention">Prevention</CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/endodontics">Endodontics</CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/orthodontics">
                   Orthodontics
                 </CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/surgery">Surgery</CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/prosthetics">Prosthetics</CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/children">Kid's dentistry</CustomeLink>
               </li>
-              <li className={style.innerList}>
+              <li>
                 <CustomeLink to="/prices/xray">X-ray</CustomeLink>
               </li>
             </ul>
-          </a>
+          </li>
           <li>
             <CustomeLink to="/about">About</CustomeLink>
           </li>
