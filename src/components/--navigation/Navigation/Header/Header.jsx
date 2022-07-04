@@ -11,11 +11,11 @@ const Header = () => {
   const toggleModal = () => {
     setIsOpenModal((prev) => !prev);
   };
-  const [value, setValue] = useState("");
+  // const [value, setValue] = useState("");
 
-  function chengeSelect(e) {
-    setValue(e.target.value);
-  }
+  // function chengeSelect(e) {
+  //   setValue(e.target.value);
+  // }
 
   return (
     <header>

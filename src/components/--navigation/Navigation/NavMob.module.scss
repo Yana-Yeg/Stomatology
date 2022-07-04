@@ -39,3 +39,19 @@
     stroke: orange;
     display: flex;
 }
+.ItemList{
+    position: relative;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: lightslategrey;
+}
+.ItemList:hover {
+    color: orange;
+    background-image: repeating-linear-gradient(to top, orange, transparent 5px 50px);
+}
+.absolute{
+    position: absolute;
+    left: -400px;
+    top: 0px;
+}

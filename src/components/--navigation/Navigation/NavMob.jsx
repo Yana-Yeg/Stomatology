@@ -25,9 +25,9 @@ const NavMob = ({ isOpenModal, handleClose }) => {
           {/* <li>
             <CustomeLink to="/prices">Prices</CustomeLink>
           </li> */}
-          <li>
+          <li className={style.ItemList}>
             Prices
-            <ul className={style.link_menu}>
+            <ul className={`${style.link_menu} ${style.absolute}`}>
               <li>
                 <CustomeLink to="/prices/general">General</CustomeLink>
               </li>
