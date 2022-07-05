@@ -57,6 +57,9 @@ const NavMob = ({ isOpenModal, handleClose }) => {
             </ul>
           </li>
           <li>
+            <CustomeLink to="/gallery">Gallery</CustomeLink>
+          </li>
+          <li>
             <CustomeLink to="/about">About</CustomeLink>
           </li>
         </ul>

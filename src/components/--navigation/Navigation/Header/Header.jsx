@@ -70,6 +70,7 @@ const Header = () => {
                 </li>
               </ul>
             </a>
+            <CustomeLink to="/gallery">Gallery</CustomeLink>
             <CustomeLink to="/contacts">Contacts</CustomeLink>
           </div>
           {/* className={style.Section1 + " " + style.Section2} */}

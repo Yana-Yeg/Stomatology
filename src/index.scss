@@ -135,6 +135,9 @@ code {
         display: flex;
       }
 }
+
+// =============================================
+
 .prices_title {
   padding: 10px 0 5px 0;
   font-size: 18px;
@@ -205,4 +208,44 @@ code {
     line-height: 1.6;
     margin-top: 20px;
   }
+}
+
+// =============================================
+
+.grid{
+  margin: 10px 0;
+  display: grid;
+  gap: 10px;
+  justify-items: left;
+  grid-template-areas:
+      "A  A  A  B "
+      "A  A  A  C"
+      "F  F  E  E"
+      "F  F  E  E"
+      "F  F  G  G"
+      "D  D  G  G"
+      // "G  G  G  G";
+}
+.gridItem1{
+  grid-area: A;
+  padding-top: 40px;
+}
+.gridItem2{
+  grid-area: B;
+}
+.gridItem3 {
+  grid-area: C;
+}
+.gridItem4 {
+  grid-area: D;
+}
+.gridItem5 {
+  grid-area: E;
+}
+.gridItem6 {
+  grid-area: F;
+  padding-top: 90px;
+}
+.gridItem7 {
+  grid-area: G;
 }

@@ -16,6 +16,7 @@ import PricesChildrenPage from "./pages/PricesChildrenPage";
 import PricesXrayPage from "./pages/PricesXrayPage";
 import PricesPageLekalo from "./pages/PricesPageLekalo";
 import PricesAllPage from "./pages/PricesAllPage";
+import GalleryPage from "./pages/GalleryPage";
 
 const generalList = [
   "filling of light hardening - 220-320 PLN",
@@ -215,6 +216,7 @@ function App() {
           <Route path="/prices/children" element={<PricesChildrenPage />} />
           <Route path="/prices/xray" element={<PricesXrayPage />} /> */}
         </Route>
+        <Route path="gallery" element={<GalleryPage />} />
         <Route path="contacts" element={<ContactsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
